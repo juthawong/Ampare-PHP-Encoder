@@ -23,3 +23,7 @@ http://www.phpprotect.info/
 I take my free time doing support. So please don't angry or rush me.
 
 Donate us : https://www.juthawong.com/donate
+
+#Recommend
+
+Please obfuscate code folder by folder or it can messed up :o
