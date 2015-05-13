@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Ampare PHP Encoder.exe" version="1.0.0.0" publicKeyToken="44052c5a1fcf23c0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Hopstarter-3d-Cartoon-Vol2-Web-Coding.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Ampare PHP Encoder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Ampare PHP Encoder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ampare PHP Encoder.exe" size="444288">
+      <assemblyIdentity name="Ampare PHP Encoder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>w6o2BcLF6WSB0UJVNKe0zdk/aqc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Hopstarter-3d-Cartoon-Vol2-Web-Coding.ico" size="196751">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5GX7g2/lIoBN/QKDwoEFF5nb9Ds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Ampare\Defa" issuerKeyHash="f7119628ec34d38e38ef480f69b183a15c7599f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>93f18ZUHZNjm/ucvOmvwZCHZIT0=</DigestValue></Reference></SignedInfo><SignatureValue>ECmtt3ACfiV3ONe3QexJe0vfOBd5pE37Q5gyl04KfiqR2D7IMmHbsxL8aXG9n3XsdRhj/LY5e3X4V+M0PxEG74Ysz0cSrrEVeAGkyCbFabfnxflEtAU33/iAA+WLH4YUxmX6Ckh2ks8uas4Km1KbXhstzbfmHDC8Mb5B8G6dA2I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zPTG7E/GhPf2RhyQvJfe7WFvt+B9/vXp+MxZHgXruvvNol5m9rWMh7x3qR6b/IfvdjC1O7N+qqK7jZjON3HPQ+mpaRRPDhfRtiY2pHz6zrsehfo3k1jfwQ2JycDM43NJxh8vmtBDzyZxsbYIyLa4SAid+qGJrE+br0QiB3OpyEc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d21d92164f06b3a2fe7fee6d8640795f1f577f7" Description="" Url=""><as:assemblyIdentity name="Ampare PHP Encoder.exe" version="1.0.0.0" publicKeyToken="44052c5a1fcf23c0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Ampare\Defa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OvBNq2P0+cmc9HoleoloJJbR2N8=</DigestValue></Reference></SignedInfo><SignatureValue>tcA8a1ZIwsQ9xN8t5XtsPia/kmAqE2vtepBdnGAFW7j4GVrCKa2cgU6kn6sIexO3bPLJBgzKoA0ywL5hQDD8YczIRsijZaW3wFWnZL+DQqAH0nH9XoT9YFZ1/hnVVRSozeIaV+5AowSVcrQioYUDnEKrisvjMXJWVVQZ9k06rPE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zPTG7E/GhPf2RhyQvJfe7WFvt+B9/vXp+MxZHgXruvvNol5m9rWMh7x3qR6b/IfvdjC1O7N+qqK7jZjON3HPQ+mpaRRPDhfRtiY2pHz6zrsehfo3k1jfwQ2JycDM43NJxh8vmtBDzyZxsbYIyLa4SAid+qGJrE+br0QiB3OpyEc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQHZ68OmyU7q9ISaStWrXhNjANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYAQQBtAHAAYQByAGUAXABEAGUAZgBhMB4XDTE1MDUxMzEyMzczNloXDTE2MDUxMjE4MzczNlowITEfMB0GA1UEAx4WAEEAbQBwAGEAcgBlAFwARABlAGYAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzPTG7E/GhPf2RhyQvJfe7WFvt+B9/vXp+MxZHgXruvvNol5m9rWMh7x3qR6b/IfvdjC1O7N+qqK7jZjON3HPQ+mpaRRPDhfRtiY2pHz6zrsehfo3k1jfwQ2JycDM43NJxh8vmtBDzyZxsbYIyLa4SAid+qGJrE+br0QiB3OpyEcCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBeLQSaMaZ61Xypg7ereM9Wfhnu0n3ghhinKNnlEpVMZnsiYH8b4O8IyHzjsuFcZCUSJ5pF1m4azVmPvKuiQcAPy2C20/0IpZlUVL37QIBbH8/3eKzqeZQkSMiaGhDNgkJdRk8Al2nPNX6VcwijbEct9SHEliTbyVEAfc1V8DTLJA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

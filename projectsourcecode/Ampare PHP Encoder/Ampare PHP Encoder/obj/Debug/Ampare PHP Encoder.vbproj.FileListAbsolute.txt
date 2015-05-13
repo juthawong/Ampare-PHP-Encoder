@@ -1,0 +1,14 @@
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\bin\Debug\Ampare PHP Encoder.exe
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\bin\Debug\Ampare PHP Encoder.pdb
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\bin\Debug\Ampare PHP Encoder.xml
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare_PHP_Encoder.Form1.resources
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare_PHP_Encoder.Resources.resources
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.vbproj.GenerateResource.Cache
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.exe
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.xml
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.pdb
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\bin\Debug\Ampare PHP Encoder.exe.manifest
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\bin\Debug\Ampare PHP Encoder.application
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.TrustInfo.xml
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.exe.manifest
+c:\users\defa\documents\visual studio 2013\Projects\Ampare PHP Encoder\Ampare PHP Encoder\obj\Debug\Ampare PHP Encoder.application
